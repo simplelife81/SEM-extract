@@ -25,7 +25,7 @@ logger = logging.getLogger(__name__)
 
 # Environment variables
 #PREMIUM_LOGS = os.environ.get("PREMIUM_LOGS", "")
-#CHANNEL_ID = -1002589673708
+#CHANNEL_ID =  -1003700223671
 OWNER_ID = int(os.environ.get("OWNER_ID", ""))
 MONGO_URL = os.environ.get("MONGO_URL", "mongodb+srv://classplus:classplus12345@king.kb2x4lp.mongodb.net/?retryWrites=true&w=majority&appName=king")
 
@@ -35,10 +35,10 @@ db = mongo_client["classplus_db"]
 collection = db["user_extractions"]
 
 # Constants
-txt_dump = -1002589673708
+txt_dump =  -1003700223671
 #txt_dump = PREMIUM_LOGS
 appname = "Classplus"
-MAX_EXTRACTS_PER_DAY = 5
+MAX_EXTRACTS_PER_DAY = 20
 KEY = rb'm98=p?h,u6*I>A.|*()&7-.?\:2{Yr+-'  # Raw byte string
 IV = b'*}~;&;$;*:-![@;>'
 api = "https://api.classplusapp.com"
