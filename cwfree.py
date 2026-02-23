@@ -9,7 +9,7 @@ from Crypto.Cipher import AES
 from pymongo import MongoClient
 import base64
 
-OWNER_ID = 7438818824  # <-- Replace with your Telegram user ID
+OWNER_ID = 1806771298  # <-- Replace with your Telegram user ID
 
 log_channel = CHANNEL_ID
 # MongoDB setup
@@ -239,8 +239,8 @@ async def careerdl(app, message, headers, raw_text2, token, raw_text3, prog, nam
     caption = (
         f"**APP NAME :** cw [pro] \n\n"
         f"**Extracted BY: {credit}** \n\n"
-        f"**[Ksi ko usa ka account chiye tho msg kr lo stock h new Msg here @Hidfgh] \n\n**"
-        f"**╾───• Txtx Extractor •───╼** uploader in cheap price @king_rajasthan_23_bot"
+        f"**[Ksi ko txt ya token chahiye tho msg kr lo stock h new Msg here @Happyq123] \n\n**"
+        f"**╾───• SEM TXT Extractor •───╼** uploader in cheap price @helpto_allbot"
     )
     
     try:
