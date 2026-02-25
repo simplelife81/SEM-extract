@@ -1,0 +1,10 @@
+pyrogram
+tgcrypto
+flask
+aiohttp
+requests
+cloudscraper
+apscheduler
+aiofiles
+pycryptodome
+pytz
